@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tustel</string>
+    <string name="tustel_ok">OK</string>
+    <string name="tusttel_tap_to_select">Tap photo to select</string>
+    <string name="tustel_selected">Selected</string>
+    <string name="tustel_recent">Recents</string>
+    <string name="tustel_last_month">Last Month</string>
+    <string name="tustel_last_week">Last Week</string>
+    <string name="tustel_menu">Menu</string>
+    <string name="tustel_message_selection_limit">Can\'t select more than %d items.</string>
+    <string name="tustel_message_cannot_click_image">Can\'t add more than %s images</string>
+    <string name="tustel_bottom_message_without_video">Drag images up for gallery</string>
+    <string name="tustel_bottom_message_with_video">Press Hold for video, tap for photo</string>
+    <string name="tustel_initial_timer">0:00</string>
+</resources>

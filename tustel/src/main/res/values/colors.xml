@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tustel_primary_color">#3ddc84</color>
+    <color name="tustel_primary_dark">#268550</color>
+    <color name="tustel_primary_light_color">#803ddc84</color>
+    <color name="tustel_white">#ffffff</color>
+    <color name="tustel_red">#e51c23</color>
+    <color name="tustel_grey">#9e9e9e</color>
+    <color name="tustel_blue_grey">#607D8B</color>
+    <color name="tustel_light_grey">#DDDDDD</color>
+    <color name="tustel_black">#000000</color>
+    <color name="tustel_black_A19">#30000000</color>
+</resources>

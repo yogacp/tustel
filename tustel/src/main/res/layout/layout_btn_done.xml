@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sendButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right|bottom"
+    android:layout_marginBottom="@dimen/space_100"
+    android:visibility="gone">
+
+    <ImageView
+        android:layout_width="@dimen/space_56"
+        android:layout_height="@dimen/space_56"
+        android:background="@drawable/btn_circular"
+        android:padding="@dimen/space_semi_small"
+        android:src="@drawable/ic_check" />
+
+    <TextView
+        android:id="@+id/img_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginEnd="@dimen/space_small"
+        android:layout_marginBottom="@dimen/space_small"
+        android:padding="@dimen/space_smallest"
+        android:textColor="@color/tustel_white"
+        android:textSize="@dimen/text_size_12" />
+</FrameLayout>

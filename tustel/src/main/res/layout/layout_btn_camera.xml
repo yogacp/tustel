@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomButtons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+
+    <ImageView
+        android:id="@+id/clickmebg"
+        android:layout_width="@dimen/space_50"
+        android:layout_height="@dimen/space_50"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/space_40"
+        android:background="@drawable/circle_red"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/clickme"
+        android:layout_width="@dimen/space_72"
+        android:layout_height="@dimen/space_72"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="@dimen/space_40"
+        android:layout_marginBottom="@dimen/space_32"
+        android:background="@drawable/circle_outline" />
+
+    <FrameLayout
+        android:id="@+id/flash"
+        android:layout_width="@dimen/space_50"
+        android:layout_height="@dimen/space_50"
+        android:layout_gravity="top|left"
+        android:layout_marginStart="@dimen/space_50"
+        android:layout_marginTop="@dimen/space_48"
+        android:background="@drawable/circle"
+        android:padding="@dimen/space_semi_small">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_flash_off" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/front"
+        android:layout_width="@dimen/space_50"
+        android:layout_height="@dimen/space_50"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="@dimen/space_48"
+        android:layout_marginEnd="@dimen/space_50"
+        android:background="@drawable/circle"
+        android:padding="@dimen/space_semi_small"
+        android:src="@drawable/ic_camera_flip" />
+
+    <TextView
+        android:id="@+id/message_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/space_smallest"
+        android:text="@string/tustel_bottom_message_with_video"
+        android:textColor="@color/tustel_white"
+        android:textSize="@dimen/text_size_12" />
+
+</FrameLayout>

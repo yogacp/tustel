@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="#fff"
+    android:paddingStart="@dimen/space_14"
+    android:paddingEnd="@dimen/space_14"
+    android:paddingTop="@dimen/space_semi_small"
+    android:paddingBottom="@dimen/space_small"
+    android:text="@string/tustel_recent"
+    android:textAllCaps="true"
+    android:textColor="@color/tustel_blue_grey"
+    android:textSize="@dimen/text_size_12"
+    android:textStyle="bold" />
