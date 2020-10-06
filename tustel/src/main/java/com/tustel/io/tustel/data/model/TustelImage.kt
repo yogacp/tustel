@@ -11,8 +11,9 @@ data class TustelImage(
     val headerData: String,
     val contentUrl: String,
     val url: String,
-    val isSelected: Boolean,
     val scrollerDate: String,
-    val mediaType: Int,
-    val position: Int
-)
+    val mediaType: Int
+) {
+    var isSelected = false
+    var position = 0
+}
